@@ -5,8 +5,23 @@ This is a software project including a list of known telephone spammers, compile
 ### Details on the list ###
 
 The `list.csv` file includes a list of phone spammers recorded.
-For privacy, numbers are not reported on the list. Instead, the md5 result of the full number (including country code, beginning with `+` symbol, without any space or dash line) is reported.
+For privacy, numbers are not reported on the list. Instead, the md5 result of the full number is reported.
 
-### TODO ###
+### List format ###
 
-TODO
+The list is just a simple csv file, without headers, including:
+* a short description of the contact
+* the md5 result of the full caller's number (including country code, beginning with `+` symbol, without any space or dash line)
+
+### Projects using the list ###
+
+* [auino/virtualphone](https://github.com/auino/virtualphone)
+
+### Contribution ###
+
+The list is open for contribution, in order to extend it with additional spammers.
+In case you are interested to contribute, please let me know.
+
+### Contacts ###
+
+You can find me on [Twitter](https://twitter.com) as [@auino](https://twitter.com/auino).
