@@ -9,7 +9,7 @@ For privacy, numbers are not reported on the list. Instead, the md5 result of th
 
 ### List format ###
 
-The list is just a simple csv file, without headers, including:
+The list is just a simple csv file, with headers, including:
 * a short description of the contact
 * the md5 result of the full caller's number (including country code, beginning with `+` symbol, without any space or dash line)
 
